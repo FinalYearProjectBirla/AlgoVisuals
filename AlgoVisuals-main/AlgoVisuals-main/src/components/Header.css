@@ -1,0 +1,24 @@
+.header {
+  height: 30px;
+  text-align: center;
+  background-color: #81e2ff;
+  padding: 10px 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.header span {
+  color: crimson;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    margin-right: -50px;
+  }
+
+  .header {
+    padding: 20px 10px;
+  }
+}
